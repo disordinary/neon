@@ -1,5 +1,6 @@
 {
   "main": "index.js",
+  "version": "0.1.0",
   "scripts": {
     "configure-release": "nw-gyp configure",
     "build-release": "nw-gyp build",
