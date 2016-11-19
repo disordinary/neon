@@ -1,14 +1,14 @@
 {
   "main": "index.js",
   "scripts": {
-    "configure-release": "node-gyp configure",
-    "build-release": "node-gyp build",
-    "configure-debug": "node-gyp configure -d",
-    "build-debug": "node-gyp build -d"
+    "configure-release": "nw-gyp configure",
+    "build-release": "nw-gyp build",
+    "configure-debug": "nw-gyp configure -d",
+    "build-debug": "nw-gyp build -d"
   },
   "devDependencies": {
     "nan": "^2.3.2",
-    "node-gyp": "^3.3.1"
+    "nw-gyp": "^3.4.0"
   },
   "dependencies": {
     "bindings": "1.2.1"
